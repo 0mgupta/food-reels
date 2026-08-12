@@ -6,7 +6,7 @@ import UserRegister from '../pages/auth/UserRegister';
 import ChooseRegister from '../pages/auth/ChooseRegister';
 import UserLogin from '../pages/auth/UserLogin';
 import FoodPartnerRegister from '../pages/auth/FoodPartnerRegister';
-import FoodPartnerLogin from '../pages/auth/FoodPartnerLogin';    
+import FoodPartnerLogin from '../pages/auth/FoodPartnerLogin';        
 import Home from '../pages/general/Home';
 import Saved from '../pages/general/Saved';
 import BottomNav from '../components/BottomNav';
