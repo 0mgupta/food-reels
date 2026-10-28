@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom'
 const ReelFeed = ({ items = [], onLike, onSave, emptyMessage = 'No videos yet.' }) => {  
   const videoRefs = useRef(new Map())
    
-  useEffect(() => {
+  useEffect(() => {   
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
