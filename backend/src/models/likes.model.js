@@ -6,7 +6,7 @@ const likeSchema = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: 'user',
         required: true    
-    },
+    },    
     food: {   
         type: mongoose.Schema.Types.ObjectId,
         ref: 'food',
