@@ -7,7 +7,7 @@ const likeSchema = new mongoose.Schema({
         ref: 'user',
         required: true    
     },
-    food: {
+    food: {   
         type: mongoose.Schema.Types.ObjectId,
         ref: 'food',
         required: true
